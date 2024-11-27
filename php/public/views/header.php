@@ -1,5 +1,8 @@
 <header>
-    <a href="?page=home" alt="" class="logo"><img src="" alt="Logo"></a>
+    <div class="header-block">
+        <a href="?page=home" alt="" ><img src="../img/logo.png" alt="Logo" class="logo"></a>
+        <?php include __DIR__ . '/doctolib.php'; ?>
+    </div>
     <nav>
         <ul>
             <li><a href="?page=home" alt="">Accueil</a></li>
@@ -12,5 +15,4 @@
             <li><a href="?page=contact" alt="">Contact</a></li>
         </ul>
     </nav>
-    <a href="">Doctolib</a>
 </header>
