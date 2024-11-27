@@ -1,0 +1,38 @@
+version: '0.3'
+
+services:
+  web:
+    build: .
+    depends_on:
+      - mysql
+    container_name: serverApacheAesthetics
+    restart: unless-stopped
+    ports:
+      - "8850:80"
+    volumes:
+      - ./php/public:/var/www/html
+    environment:
+      - ALLOW_OVERRIDE=true
+      - DB_HOST=mysql
+      - DB_USER=deletre-nicolas
+      - DB_PASSWORD=nico
+      - DB_NAME=aesthetics
+  mysql:
+    image: mariadb
+    container_name: serverMySQLAesthetics
+    restart: unless-stopped
+    environment:
+      - MARIADB_ROOT_PASSWORD=root
+    ports:
+      - "3850:3306"
+  phpmyadmin:
+    image: phpmyadmin
+    container_name: serverPHPMyAdminAesthetics
+    restart: unless-stopped
+    depends_on:
+      - mysql
+    environment:
+      PMA_ARBITRARY: 1
+      PMA_HOST: mysql
+    ports:
+      - "7850:80"

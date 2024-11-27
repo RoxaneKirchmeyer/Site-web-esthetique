@@ -1,0 +1,31 @@
+//utils
+@import "utils/variables";
+
+//base
+@import "base/reset";
+@import "base/typography";
+
+
+//components
+@import "components/buttons";
+@import "components/menu-burger";
+
+
+//layout
+@import "layout/footer";
+@import "layout/header";
+@import "layout/nav";
+
+
+//pages
+@import "pages/aesthetics";
+@import "pages/contact";
+@import "pages/alopecia";
+@import "pages/home";
+@import "pages/medical-office";
+@import "pages/news";
+@import "pages/rates";
+@import "pages/treatments";
+
+
+
