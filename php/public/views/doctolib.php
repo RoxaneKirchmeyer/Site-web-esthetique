@@ -1,0 +1,1 @@
+<button><a href="https://www.doctolib.fr/medecin-generaliste/saint-jean/nicolas-deletre/booking?bookingFunnelSource=profile">Prendre rendez-vous</a></button>

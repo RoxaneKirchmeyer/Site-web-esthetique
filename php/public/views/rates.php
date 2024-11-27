@@ -1,0 +1,1 @@
+<h1>Les tarifs</h1>
