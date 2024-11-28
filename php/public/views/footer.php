@@ -17,7 +17,7 @@
     </ul>
     <hr>
     <ul>
-        <li><a href="?page=home" alt=""><img src="../img/logo.png" alt="Logo"></a></li>
+        <li><a href="?page=home" alt=""><img src="../img/logo.png" alt="Logo" class="logo"></a></li>
         <li><a href="?page=cgu" alt="">Mentions légales</a></li>
         <li>
             <p>© 2024 Dr DELETRE Nicolas</p>

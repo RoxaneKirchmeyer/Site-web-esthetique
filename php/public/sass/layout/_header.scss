@@ -1,5 +1,13 @@
 header{
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+
     .header-block {
+        background-color: $light-background;
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -9,4 +17,8 @@ header{
             width: 200px;
         }
     }
+}
+
+body {
+    padding-top: 10rem;
 }

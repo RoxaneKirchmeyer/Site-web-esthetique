@@ -1,0 +1,40 @@
+.presa {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: $background;
+    padding: 5rem;
+
+    p {
+        width: 500px;
+    }
+}
+
+.triptych {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 10rem;
+
+    figure {
+        line-height: 0;
+    }
+
+    figcaption {
+        background-color: $nav;
+        text-align: center;
+        padding: 40px;
+        font-weight: 500;
+        font-size: 1rem;
+    }
+
+    .img-triptych {
+        width: 350px;
+        filter: grayscale(100%);
+        transition: ease-in-out 1s;
+
+        &:hover{
+            filter: grayscale(0%);
+        }    
+    }
+}

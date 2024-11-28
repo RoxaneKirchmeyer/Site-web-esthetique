@@ -4,12 +4,12 @@
 
 <article>
     <section>
-        <h2>HORAIRES</h2>
+        <h3>HORAIRES</h3>
         <p>Lundi au vendredi : 8h00 - 11h30</p>
         <p>Des crénaux de téléconsultations sont disponibles les après-midi</p>
     </section>
     <section>
-        <h2>ADRESSE</h2>
+        <h3>ADRESSE</h3>
         <p>5 Avenue de Lapeyrière 31240 Saint-Jean</p>
     </section>
 </article>

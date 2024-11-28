@@ -1,0 +1,22 @@
+.presa-office {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: $background;
+    padding: 5rem;
+
+    p {
+        width: 500px;
+    }
+    img {
+        width: 600px;
+    }
+}
+
+.formation {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 5rem;
+
+}

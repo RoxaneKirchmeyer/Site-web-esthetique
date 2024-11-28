@@ -1,11 +1,13 @@
 footer {
     background-color: $footer;
+    margin-top: 4rem;
 
     ul {
         display: flex;
         justify-content: space-around;
         align-items: center;
         gap: 3rem;
+
         p {
             text-align: center;
         }
@@ -18,4 +20,10 @@ footer {
         width: 80%;
         margin: 20px auto;
     }
+
+    .logo {
+        width: 200px;
+    }
+
+
 }
