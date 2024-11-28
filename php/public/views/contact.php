@@ -5,8 +5,11 @@
 <article>
     <section>
         <h3>HORAIRES</h3>
-        <p>Lundi au vendredi : 8h00 - 11h30</p>
-        <p>Des crénaux de téléconsultations sont disponibles les après-midi</p>
+        <p>Lundi au vendredi : 14h00 - 19h00</p>
+        <p>Mardi : 14h00 - 19h00</p>
+        <p>Mercredi : 14h00 - 19h00</p>
+        <p>Jeudi : 14h00 - 19h00</p>
+        <p>Vendredi : 14h00 - 19h00</p>
     </section>
     <section>
         <h3>ADRESSE</h3>

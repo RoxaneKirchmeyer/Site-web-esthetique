@@ -1,4 +1,4 @@
-<h1>Médecine Esthétique à Saint-Jean</h1>
+<h1>Médecin Esthétique à Saint-Jean</h1>
 <article class="presa">
     <img src="../img/img-2.png" alt="">
     <p>
