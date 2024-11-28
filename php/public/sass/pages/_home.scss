@@ -18,23 +18,23 @@
 
     figure {
         line-height: 0;
-    }
 
-    figcaption {
-        background-color: $nav;
-        text-align: center;
-        padding: 40px;
-        font-weight: 500;
-        font-size: 1rem;
-    }
+        figcaption {
+            background-color: $nav;
+            text-align: center;
+            padding: 40px;
+            font-weight: 500;
+            font-size: 1rem;
+        }
 
-    .img-triptych {
-        width: 350px;
-        filter: grayscale(100%);
-        transition: ease-in-out 1s;
+        .img-triptych {
+            width: 350px;
+            filter: grayscale(100%);
+            transition: ease-in-out 1s;
+        }
 
-        &:hover{
+        &:hover .img-triptych {
             filter: grayscale(0%);
-        }    
+        }
     }
 }
