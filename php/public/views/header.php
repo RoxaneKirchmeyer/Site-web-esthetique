@@ -1,9 +1,10 @@
 <header>
-    <div class="header-block">
+<div id="btn-burger">☰</div>
+<div class="header-block">
         <a href="?page=home" alt="" ><img src="../img/logo.png" alt="Logo" class="logo"></a>
         <?php include __DIR__ . '/doctolib.php'; ?>
     </div>
-    <nav>
+    <nav class="main-nav-burger">
         <ul>
             <li><a href="?page=home" alt="">Accueil</a></li>
             <li><a href="?page=medical-office" alt="">Le cabinet</a></li>

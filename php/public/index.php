@@ -60,5 +60,6 @@
     // Inclusion du fichier footer.php
     include __DIR__ . '/views/footer.php';
 ?>
+<script src="../scripts/menuBurger.js"></script>
 </body>
 </html>

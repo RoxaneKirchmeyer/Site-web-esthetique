@@ -2,7 +2,6 @@
 
 $light-green : #C8DDC4;
 $green : #5b685d;
-$beige : #BDB1A2;
 $brown : #8B7A66;
 $blue-doctolib : #107ACA;
 $dark-blue-doctolib : #045fae;
@@ -10,6 +9,7 @@ $light-grey : #F3F3F3;
 $grey : #CFCFCF;
 $black : #000000;
 $white : #ffffff;
+$footer-color: #CA907E;
 
 
 // Variables textes
@@ -19,22 +19,30 @@ $text : $black;
 $font-title : "Montserrat", sans-serif;
 $font-text : "Poppins", sans-serif;
 $light-text : $white; 
+$light-title : $white; 
 $light-background : $white;
 $background : $light-grey;
 
 $nav : $light-green;
 $nav-hover : $green;
+$nav-bg-burger : $green;
 
-$footer : $beige;
+$footer : $footer-color;
 
-$line : $brown;
+$line : $white;
 
 $button-doctolib : $blue-doctolib;
 $button-doctolib-hover : $dark-blue-doctolib;
 
 $button-message : $white;
-$button-message-hover : $blue-doctolib;
+$button-message-hover : $grey;
 
+article:nth-of-type(odd) {
+    background-color: $background;
+}
+article:nth-of-type(even) {
+    background-color: $light-background;
+}
 
 
 

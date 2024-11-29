@@ -1,17 +1,17 @@
 <footer>
     <ul>
         <li>
-            <h3>Adresse</h3>
+            <h3 class="title-footer">Adresse</h3>
             <p>Dr DELETRE Nicolas</p>
             <p>5 Avenue de Lapeyrière</p>
             <p>31240 Saint-Jean</p>
         </li>
         <li>
-            <h3>Contact</h3>
+            <h3 class="title-footer">Contact</h3>
             <?php include __DIR__ . '/message.php'; ?>
         </li>
         <li>
-            <h3>Consulter</h3>
+            <h3 class="title-footer">Consulter</h3>
             <?php include __DIR__ . '/doctolib.php'; ?>
         </li>
     </ul>

@@ -1,0 +1,31 @@
+.contact {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    align-items: center;
+    padding: 5rem;
+
+    div {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .contact-button {
+        gap: 2rem;
+        margin-top: 2rem;
+    }
+}
+
+.map-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .map {
+        text-align: center;
+        padding: 5rem;
+        width: 60vw;
+        height: 45vh;
+        filter: grayscale(100%);
+    }
+}

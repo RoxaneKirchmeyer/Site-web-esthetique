@@ -2,7 +2,6 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: $background;
     padding: 5rem;
 
     p {
@@ -35,6 +34,43 @@
 
         &:hover .img-triptych {
             filter: grayscale(0%);
+        }
+    }
+}
+
+@media screen and (max-width: 391px) {
+    .presa {
+        flex-direction: column;
+        padding: 2rem;
+
+        p {
+            width: 100%;
+            text-align: justify;
+        }
+
+        img {
+            width: 300px;
+        }
+    }
+
+    .triptych {
+        flex-direction: column; 
+        justify-content: center;
+        margin-top: 3rem; 
+
+        figure {
+            margin-bottom: 2rem;
+
+            .img-triptych {
+                width: 100%;
+                max-width: 300px;
+                margin: 0 auto;
+            }
+
+            figcaption {
+                padding: 20px;
+                font-size: 0.9rem; 
+            }
         }
     }
 }

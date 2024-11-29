@@ -1,10 +1,13 @@
-header{
-
+header {
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
     z-index: 1000;
+
+    #btn-burger {
+        display: none;
+    }
 
     .header-block {
         background-color: $light-background;
@@ -21,4 +24,26 @@ header{
 
 body {
     padding-top: 10rem;
+}
+
+@media screen and (max-width: 391px) {
+    header {
+        .header-block {
+            display: none;
+        }
+
+        #btn-burger {
+            display: block;
+            position: fixed;
+            font-size: 2.8em;
+            color: $light-text;
+            background-color: $nav-bg-burger;
+            padding: 0.5rem;
+            width: 42px;
+            top: 0;
+            left: 0;
+            border: 1px solid $nav;
+            cursor: pointer;
+        }
+    }
 }

@@ -20,14 +20,12 @@ background-color: $button-message;
 border: 1px $blue-doctolib solid;
 border-radius: 25px;
 color: $blue-doctolib;
-padding: 10px;
+padding: 10px 30px;
 font-weight: 400;
 transition: ease-in-out 0.5s;
 
 &:hover{
     background-color: $button-message-hover;
-    color: $light-text;
-    border: 1px $light-background solid;
 }
 }
 
