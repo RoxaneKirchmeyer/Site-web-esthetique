@@ -8,7 +8,7 @@
     Doloremque magni sed repudiandae mollitia harum eius iusto ex nesciunt eaque excepturi voluptate, sint, ratione, tenetur commodi delectus quidem maiores sit nemo. Repellendus, a fuga neque perspiciatis deleniti dolorum eius?
     </p>
 </article>
-<article class="triptych">
+<article class="grid">
     <figure>
         <a href="?page=news"><img src="../img/img-1.jpg" alt="" class="img-triptych"></a>
         <a href="?page=news" alt=""><figcaption>Actualités</figcaption></a>
