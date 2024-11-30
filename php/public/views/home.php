@@ -10,15 +10,15 @@
 </article>
 <article class="grid">
     <figure>
-        <a href="?page=news"><img src="../img/img-1.jpg" alt="" class="img-triptych"></a>
+        <a href="?page=news"><img src="../img/img-1.jpg" alt=""></a>
         <a href="?page=news" alt=""><figcaption>Actualités</figcaption></a>
     </figure>
     <figure>
-        <a href="?page=alopecia"><img src="../img/img-1.jpg" alt="" class="img-triptych"></a>
+        <a href="?page=alopecia"><img src="../img/img-1.jpg" alt=""></a>
         <a href="?page=alopecia" alt=""><figcaption>La chute de cheveux</figcaption></a>
     </figure>
     <figure>
-        <a href="?page=aesthetics"><img src="../img/img-1.jpg" alt="" class="img-triptych"></a>
+        <a href="?page=aesthetics"><img src="../img/img-1.jpg" alt=""></a>
         <a href="?page=aesthetics" alt=""><figcaption>Esthétique du visage et du corps</figcaption></a>
     </figure>
 </article>

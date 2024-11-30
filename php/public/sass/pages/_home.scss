@@ -12,8 +12,10 @@
 .grid {
     display: flex;
     justify-content: space-evenly;
+    flex-wrap: wrap;
     align-items: center;
-    margin-top: 10rem;
+    margin: 10rem 3rem;
+    gap: 1rem;
 
     figure {
         line-height: 0;
@@ -21,18 +23,21 @@
         figcaption {
             background-color: $nav;
             text-align: center;
-            padding: 40px;
+            padding: 30px;
             font-weight: 500;
-            font-size: 1rem;
+            font-size: 0.7rem;
+            border-radius: 0 0 10px 10px;
         }
 
-        .img-triptych {
-            width: 350px;
+        img {
+            margin: 1rem 0 0 0;
+            width: 200px;
             filter: grayscale(100%);
             transition: ease-in-out 1s;
-        }
+            border-radius: 10px 10px 0 0;
+        }   
 
-        &:hover .img-triptych {
+        &:hover img {
             filter: grayscale(0%);
         }
     }

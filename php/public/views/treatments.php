@@ -8,136 +8,181 @@ $treatment = isset($_GET['treatment']) ? $_GET['treatment'] : null;
     <h1>Les traitements</h1>
 
     <article>
-        <section class="alopecia-treatments">
-            <h2>Traitements de l'alopécie</h2>
+    <h2 class="treatment-title">Traitements de l'alopécie</h2>
+        <section class="grid">
             <!-- Lien vers LED -->
-            <a href="?page=treatments&treatment=led">
-                <img src="../img/img-1.jpg" alt="LED" class="treatment-img">
-                <p>LED</p>
-            </a>
+            <figure>
+                <a href="?page=treatments&treatment=led">
+                    <img src="../img/img-3.png" alt="LED">
+                    <figcaption>LED</figcaption>
+                </a>
+            </figure>
             <!-- Lien vers Mésothérapie -->
-            <a href="?page=treatments&treatment=mesotherapy">
-                <img src="../img/img-1.jpg" alt="Mésothérapie" class="treatment-img">
-                <p>Mésothérapie</p>
-            </a>
+            <figure>
+                <a href="?page=treatments&treatment=mesotherapy">
+                    <img src="../img/img-3.png" alt="Mésothérapie">
+                    <figcaption>Mésothérapie</figcaption>
+                </a>
+            </figure>
             <!-- Lien vers PRP -->
-            <a href="?page=treatments&treatment=prp">
-                <img src="../img/img-1.jpg" alt="PRP" class="treatment-img">
-                <p>PRP</p>
-            </a>
+            <figure>
+                <a href="?page=treatments&treatment=prp">
+                    <img src="../img/img-3.png" alt="PRP">
+                    <figcaption>PRP</figcaption>
+                </a>
+            </figure>
             <!-- Lien vers Mésogreffe -->
-            <a href="?page=treatments&treatment=mesograft">
-                <img src="../img/img-1.jpg" alt="Mésogreffe" class="treatment-img">
-                <p>Mésogreffe</p>
-            </a>
+            <figure>
+                <a href="?page=treatments&treatment=mesograft">
+                    <img src="../img/img-3.png" alt="Mésogreffe">
+                    <figcaption>Mésogreffe</figcaption>
+                </a>
+            </figure>
 
             <!-- Lien vers Greffe -->
-            <a href="?page=treatments&treatment=graft">
-                <img src="../img/img-1.jpg" alt="Greffe" class="treatment-img">
-                <p>Greffe</p>
-            </a>
+            <figure>
+                <a href="?page=treatments&treatment=graft">
+                    <img src="../img/img-3.png" alt="Greffe">
+                    <figcaption>Greffe</figcaption>
+                </a>
+            </figure>
         </section>
-        <section class="aesthetics-treatments">
-            <h2>Traitements esthétique du visage</h2>
+        <h2 class="treatment-title">Traitements esthétique du visage</h2>
+        <section class="grid">
             <!-- Lien vers Injections -->
-            <a href="?page=treatments&treatment=injections">
-                <img src="../img/img-1.jpg" alt="Injections d'Acide Hyaluronique" class="treatment-img">
-                <p>Injections d'Acide Hyaluronique</p>
-            </a>
+            <figure>
+                <a href="?page=treatments&treatment=injections">
+                    <img src="../img/img-3.png" alt="Injections d'Acide Hyaluronique">
+                    <figcaption>Injections d'Acide Hyaluronique</figcaption>
+                </a>
+            </figure>
             <!-- Lien vers Fils Tenseurs -->
-            <a href="?page=treatments&treatment=tensor-threads">
-                <img src="../img/img-1.jpg" alt="Fils tenseurs" class="treatment-img">
-                <p>Fils tenseurs</p>
-            </a>
+            <figure>
+                <a href="?page=treatments&treatment=tensor-threads">
+                    <img src="../img/img-3.png" alt="Fils tenseurs">
+                    <figcaption>Fils tenseurs</figcaption>
+                </a>
+            </figure>
 
             <!-- Lien vers Peeling -->
-            <a href="?page=treatments&treatment=peeling">
-                <img src="../img/img-1.jpg" alt="Peeling" class="treatment-img">
-                <p>Peeling</p>
-            </a>
+            <figure>
+                <a href="?page=treatments&treatment=peeling">
+                    <img src="../img/img-3.png" alt="Peeling">
+                    <figcaption>Peeling</figcaption>
+                </a>
+            </figure>
             <!-- Lien vers LED -->
-            <a href="?page=treatments&treatment=led">
-                <img src="../img/img-1.jpg" alt="LED" class="treatment-img">
-                <p>LED</p>
-            </a>
+            <figure>
+                <a href="?page=treatments&treatment=led">
+                    <img src="../img/img-3.png" alt="LED">
+                    <figcaption>LED</figcaption>
+                </a>
+            </figure>
             <!-- Lien vers Carboxythérapie -->
-            <a href="?page=treatments&treatment=carboxytherapy">
-                <img src="../img/img-1.jpg" alt="Carboxythérapie" class="treatment-img">
-                <p>Carboxythérapie</p>
-            </a>
+            <figure>
+                <a href="?page=treatments&treatment=carboxytherapy">
+                    <img src="../img/img-3.png" alt="Carboxythérapie">
+                    <figcaption>Carboxythérapie</figcaption>
+                </a>
+            </figure>
             <!-- Lien vers Toxine botulique -->
-            <a href="?page=treatments&treatment=botulinum-toxin">
-                <img src="../img/img-1.jpg" alt="Toxine botulique" class="treatment-img">
-                <p>Toxine botulique</p>
-            </a>
+            <figure>
+                <a href="?page=treatments&treatment=botulinum-toxin">
+                    <img src="../img/img-3.png" alt="Toxine botulique">
+                    <figcaption>Toxine botulique</figcaption>
+                </a>
+            </figure>
             <!-- Lien vers Crèmes et Sérums -->
-            <a href="?page=treatments&treatment=creams-and-serums">
-                <img src="../img/img-1.jpg" alt="Crèmes et Sérums" class="treatment-img">
-                <p>Crèmes et Sérums</p>
-            </a>
+            <figure>
+                <a href="?page=treatments&treatment=creams-and-serums">
+                    <img src="../img/img-3.png" alt="Crèmes et Sérums">
+                    <figcaption>Crèmes et Sérums</figcaption>
+                </a>
+            </figure>
             <!-- Lien vers Laser Médical -->
-            <a href="?page=treatments&treatment=medical-laser">
-                <img src="../img/img-1.jpg" alt="Laser Médical" class="treatment-img">
-                <p>Laser Médical</p>
-            </a>
+            <figure>
+                <a href="?page=treatments&treatment=medical-laser">
+                    <img src="../img/img-3.png" alt="Laser Médical">
+                    <figcaption>Laser Médical</figcaption>
+                </a>
+            </figure>
             <!-- Lien vers Injection de Radiesse® -->
-            <a href="?page=treatments&treatment=radiess-injection">
-                <img src="../img/img-1.jpg" alt="Injection de Radiesse®" class="treatment-img">
-                <p>Injection de Radiesse®</p>
-            </a>
+            <figure>
+                <a href="?page=treatments&treatment=radiess-injection">
+                    <img src="../img/img-3.png" alt="Injection de Radiesse®">
+                    <figcaption>Injection de Radiesse®</figcaption>
+                </a>
+            </figure>
             <!-- Lien vers Injection de Mésothérapie -->
-            <a href="?page=treatments&treatment=mesotherapy">
-                <img src="../img/img-1.jpg" alt="Mésothérapie" class="treatment-img">
-                <p>Mésothérapie</p>
-            </a>
+            <figure>
+                <a href="?page=treatments&treatment=mesotherapy">
+                    <img src="../img/img-3.png" alt="Mésothérapie">
+                    <figcaption>Mésothérapie</figcaption>
+                </a>
+            </figure>
         </section>
-        <section class="aesthetics-treatments">
-            <h2>Traitements esthétique du corps</h2>
+        <h2 class="treatment-title">Traitements esthétique du corps</h2>
+        <section class="grid">
             <!-- Lien vers Epilation laser -->
-            <a href="?page=treatments&treatment=laser-hair-removal">
-                <img src="../img/img-1.jpg" alt="Epilation laser" class="treatment-img">
-                <p>Epilation laser</p>
-            </a>
+            <figure>
+                <a href="?page=treatments&treatment=laser-hair-removal">
+                    <img src="../img/img-3.png" alt="Epilation laser">
+                    <figcaption>Epilation laser</figcaption>
+                </a>
+            </figure>
 
             <!-- Lien vers ATTIVA -->
-            <a href="?page=treatments&treatment=attiva">
-                <img src="../img/img-1.jpg" alt="ATTIVA" class="treatment-img">
-                <p>ATTIVA</p>
-            </a>
+            <figure>
+                <a href="?page=treatments&treatment=attiva">
+                    <img src="../img/img-3.png" alt="ATTIVA">
+                    <figcaption>ATTIVA</figcaption>
+                </a>
+            </figure>
 
             <!-- Lien vers HIFU -->
-            <a href="?page=treatments&treatment=hifu">
-                <img src="../img/img-1.jpg" alt="HIFU" class="treatment-img">
-                <p>HIFU</p>
-            </a>
+            <figure>
+                <a href="?page=treatments&treatment=hifu">
+                    <img src="../img/img-3.png" alt="HIFU">
+                    <figcaption>HIFU</figcaption>
+                </a>
+            </figure>
 
             <!-- Lien vers Cryolipolyse -->
-            <a href="?page=treatments&treatment=cryolipolysis">
-                <img src="../img/img-1.jpg" alt="Cryolipolyse" class="treatment-img">
-                <p>Cryolipolyse</p>
-            </a>
+            <figure>
+                <a href="?page=treatments&treatment=cryolipolysis">
+                    <img src="../img/img-3.png" alt="Cryolipolyse">
+                    <figcaption>Cryolipolyse</figcaption>
+                </a>
+            </figure>
 
             <!-- Lien vers Inshape -->
-            <a href="?page=treatments&treatment=inshape">
-                <img src="../img/img-1.jpg" alt="Inshape" class="treatment-img">
-                <p>Inshape</p>
-            </a>
+            <figure>
+                <a href="?page=treatments&treatment=inshape">
+                    <img src="../img/img-3.png" alt="Inshape">
+                    <figcaption>Inshape</figcaption>
+                </a>
+            </figure>
 
             <!-- Lien vers LED -->
-            <a href="?page=treatments&treatment=led">
-                <img src="../img/img-1.jpg" alt="LED" class="treatment-img">
-                <p>LED</p>
-            </a>
+            <figure>
+                <a href="?page=treatments&treatment=led">
+                    <img src="../img/img-3.png" alt="LED">
+                    <figcaption>LED</figcaption>
+                </a>
+            </figure>
 
             <!-- Lien vers Laser Médical -->
-            <a href="?page=treatments&treatment=medical-laser">
-                <img src="../img/img-1.jpg" alt="Laser Médical" class="treatment-img">
-                <p>Laser Médical</p>
-            </a>
+            <figure>
+                <a href="?page=treatments&treatment=medical-laser">
+                    <img src="../img/img-3.png" alt="Laser Médical">
+                    <figcaption>Laser Médical</figcaption>
+                </a>
+            </figure>
 
         </section>
     </article>
-<?php else: ?>
+
+    <?php else: ?>
     <!-- Si un traitement est sélectionné, afficher son contenu -->
     <?php
     switch ($treatment) {

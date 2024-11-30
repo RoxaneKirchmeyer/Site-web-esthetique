@@ -10,23 +10,23 @@
 </article>
 <article class="grid">
     <figure>
-        <a href="?page=treatments&treatment=led"><img src="../img/img-1.jpg" alt="" class="img-triptych"></a>
+        <a href="?page=treatments&treatment=led"><img src="../img/img-3.png" alt=""></a>
         <a href="?page=treatments&treatment=led" alt=""><figcaption>LED</figcaption></a>
     </figure>
     <figure>
-        <a href="?page=treatments&treatment=mesotherapy"><img src="../img/img-1.jpg" alt="" class="img-triptych"></a>
+        <a href="?page=treatments&treatment=mesotherapy"><img src="../img/img-3.png" alt=""></a>
         <a href="?page=treatments&treatment=mesotherapy" alt=""><figcaption>Mésothérapie</figcaption></a>
     </figure>
     <figure>
-        <a href="?page=treatments&treatment=prp"><img src="../img/img-1.jpg" alt="" class="img-triptych"></a>
+        <a href="?page=treatments&treatment=prp"><img src="../img/img-3.png" alt=""></a>
         <a href="?page=treatments&treatment=prp" alt=""><figcaption>PRP</figcaption></a>
     </figure>
     <figure>
-        <a href="?page=treatments&treatment=mesograft"><img src="../img/img-1.jpg" alt="" class="img-triptych"></a>
+        <a href="?page=treatments&treatment=mesograft"><img src="../img/img-3.png" alt=""></a>
         <a href="?page=treatments&treatment=mesograft" alt=""><figcaption>Mésogreffe</figcaption></a>
     </figure>
     <figure>
-        <a href="?page=treatments&treatment=graft"><img src="../img/img-1.jpg" alt="" class="img-triptych"></a>
+        <a href="?page=treatments&treatment=graft"><img src="../img/img-3.png" alt=""></a>
         <a href="?page=treatments&treatment=graft" alt=""><figcaption>Greffe</figcaption></a>
     </figure>
 </article>
