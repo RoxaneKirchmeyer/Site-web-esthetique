@@ -31,3 +31,20 @@ a,p,li {
     color: $text;
     font-size: 1rem;
 }
+
+body {
+    padding-top: 10rem;
+}
+
+article:nth-of-type(odd) {
+    background-color: $background;
+}
+article:nth-of-type(even) {
+    background-color: $light-background;
+}
+
+@media screen and (max-width: 391px) {
+body {
+    padding-top: 0;
+}
+}

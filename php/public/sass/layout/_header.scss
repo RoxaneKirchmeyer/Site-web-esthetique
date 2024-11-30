@@ -22,10 +22,6 @@ header {
     }
 }
 
-body {
-    padding-top: 10rem;
-}
-
 @media screen and (max-width: 391px) {
     header {
         .header-block {
@@ -35,7 +31,8 @@ body {
         #btn-burger {
             display: block;
             position: fixed;
-            font-size: 2.8em;
+            font-size: 2rem;
+            text-align: center;
             color: $light-text;
             background-color: $nav-bg-burger;
             padding: 0.5rem;
@@ -44,6 +41,7 @@ body {
             left: 0;
             border: 1px solid $nav;
             cursor: pointer;
+            border-radius: 0 0 25px 0;
         }
     }
 }
