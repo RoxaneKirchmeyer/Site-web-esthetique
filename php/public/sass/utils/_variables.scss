@@ -1,11 +1,13 @@
 // Variables couleurs
 
 $light-green : #C8DDC4;
-$green : #5b685d;
+$dark-green : #5b685d;
 $blue-doctolib : #107ACA;
 $dark-blue-doctolib : #045fae;
-$light-grey : #F3F3F3;
-$grey : #CFCFCF;
+$lighter-grey : #EEEEEE;
+$light-grey : #DDDDDD;
+$grey : #CCCCCC;
+$dark-grey : #999999;
 $black : #000000;
 $white : #ffffff;
 $brown: #CA907E;
@@ -23,8 +25,16 @@ $light-background : $white;
 $background : $light-grey;
 
 $nav : $light-green;
-$nav-hover : $green;
-$nav-bg-burger : $green;
+$nav-hover : $dark-green;
+$nav-bg-burger : $dark-green;
+
+$nav-category : $grey;
+$nav-category-hover : $dark-grey;
+$nav-subcategory : $lighter-grey;
+$nav-subcategory-hover : $grey;
+
+
+
 
 $footer : $brown;
 

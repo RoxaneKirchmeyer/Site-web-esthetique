@@ -1,22 +1,86 @@
 nav {
     background-color: $nav;
-    padding: 1.5rem;
 
     ul {
         display: flex;
         justify-content: space-around;
-    }
 
-    a {
-        padding: 1.5rem;
-        // transition: ease-in-out 0.5s;
+        li {
+            position: relative;
 
-        &:hover {
-            background-color: $nav-hover;
-            color: $light-text;
+            a {
+                display: block;
+                padding: 1.5rem;
+
+                &:hover {
+                    background-color: $nav-hover;
+                    color: $light-text;
+                }
+            }
+
+            ul {
+                display: none;
+                position: absolute;
+                top: 100%;
+                left: 0;
+                background-color: $grey;
+                padding: 0;
+                margin: 0;
+                min-width: 100%;
+                z-index: 100;
+
+                li {
+                    position: relative;
+                    border-bottom: 1px solid  $nav-category-hover;
+
+                    a {
+                        display: block;
+                        padding: 10px;
+                        background-color: $nav-category;
+
+                        &:hover {
+                            background-color: $nav-category-hover;
+                            color: $text;
+                        }
+                    }
+
+                    ul {
+                        display: none;
+                        position: absolute;
+                        top: 0;
+                        left: 100%;
+                        background-color: $grey;
+                        padding: 0;
+                        margin: 0;
+                        width: 200px;
+
+                        li {
+                            border-bottom: 1px solid $nav-category;
+                            a {
+                                background-color: $nav-subcategory;
+
+                                &:hover {
+                                    background-color: $nav-subcategory-hover;
+                                    color: $text;
+                                }
+                            }
+
+                        }
+                    }
+
+                    &:hover ul {
+                        display: block;
+                    }
+                }
+            }
+
+            &:hover>ul {
+                display: block;
+            }
         }
     }
 }
+
 
 @media screen and (max-width: 391px) {
 
@@ -26,7 +90,7 @@ nav {
         align-items: center;
         gap: 1.5rem;
         background-color: $nav;
-        
+
 
         ul {
             flex-direction: column;
